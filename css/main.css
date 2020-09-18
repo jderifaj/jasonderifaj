@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container{
+    background-color: #374F67;
+    min-height:500px;
+}
+.hero-container h1, .hero-container p{color:white;}
+.hero-flex{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-il-tr{
+    position: relative;
+    left:10%;
+    width:90%;
+}
+
+@media screen and (max-width: 800px) {
+    .hero-flex{
+        flex-direction: column;
+        justify-content: center;
+    }
+  }
