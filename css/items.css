@@ -1,0 +1,14 @@
+/* items */
+
+.square-target{
+    display:flex;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    background:rgb(94, 187, 0);
+    width:200px;
+    height:10px;
+    padding:1rem;
+    color:white;
+    text-align:center;
+}
