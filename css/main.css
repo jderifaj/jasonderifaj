@@ -19,9 +19,13 @@ body{
 .forty{width:40%}
 .fifty{width:50%;}
 .sixty{width:60%;}
+.inline-block{display: inline-block;}
 .block-container{
     background-color: rgb(8, 54, 79);
     min-height:200px;
+}
+.block-content{
+    color:white;
 }
 .info{
     background:rgb(65, 140, 181);
